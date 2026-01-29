@@ -40,20 +40,25 @@ This takes the disk info, filters for physical drives only, and then sends that 
 ### 1. Git clone this repo
 Open your terminal and create a new file using **Vim**:
 ```bash
-git clone https://github.com/2Kelvin/sys-admin-and-devops.git
+git clone https://github.com/2Kelvin/server-stats.git
 ```
 
-### 2. Run the Script
-Navigate inside the `server_stats_challenge` folder.
+### 2. Navigate into folder
 ```bash
-cd server_stats_challenge
+cd server-stats
 ```
 
 ### 3. Run the Script
-Execute it directly from your terminal:
+Execute `server-stats` bash file directly from your terminal:
 
 ```bash
 ./server-stats
+```
+
+In case the file doesn't have the necessary permissions, run:
+
+```bash
+chmod +x server-stats
 ```
 
 ## 📋 Example Output
