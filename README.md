@@ -63,9 +63,9 @@ chmod +x server-stats
 
 ## 📋 Example Output
 
-Insert screenshot here
-
+<img width="885" height="963" alt="Screenshot 2026-01-29 175747" src="https://github.com/user-attachments/assets/2bd643c2-2b01-4774-9079-190598f3a827" />
 ---
+
 
 ## 📝 Requirements
 
