@@ -96,3 +96,5 @@ ps -eo pcpu,comm,pid --sort=-pcpu | head -n 6 | column -t
 # +++++++++++++++++++ Top 5 High Memory Usage Processes +++++++++++++++++++
 echo -e "\n${yellow}${bold}--- Top 5 High Memory Usage Processes ---\n${green}"
 ps -eo pmem,comm,pid --sort=-pmem | head -n 6 | column -t
+
+echo -e "\e[0m"
